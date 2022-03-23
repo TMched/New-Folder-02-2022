@@ -1,0 +1,549 @@
+{
+  "id": "891d734c-5041-4ebd-a475-c79596176246",
+  "version": "2.0",
+  "name": "CA - Marketing Tat Mchedlidze",
+  "url": "https://qasvus.wixsite.com/ca-marketing",
+  "tests": [{
+    "id": "077aca09-3eed-49d2-a750-72bc01ea77a8",
+    "name": "CA- Marketing 01",
+    "commands": [{
+      "id": "dcd107be-a311-49cd-ae52-ce7c6425f432",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51b6e3cc-e12a-4023-8eac-55dac3779676",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "addbd424-d061-4780-8fbf-8555b1d02d18",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#img_comp-ksocy8ov3 > img",
+      "targets": [
+        ["css=#img_comp-ksocy8ov3 > img", "css:finder"],
+        ["xpath=//img[@alt='iot_sq.png']", "xpath:img"],
+        ["xpath=//wix-image[@id='img_comp-ksocy8ov3']/img", "xpath:idRelative"],
+        ["xpath=//div/a/wix-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccf9c150-b83a-4399-b038-46993e8a91d6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=CALIFORNIA MARCKETING",
+      "targets": [
+        ["linkText=CALIFORNIA MARCKETING", "linkText"],
+        ["css=.color_15 > .focus-within", "css:finder"],
+        ["xpath=//a[contains(text(),'CALIFORNIA MARCKETING')]", "xpath:link"],
+        ["xpath=//div[@id='comp-ksocy8ow']/p/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://qasvus.wixsite.com/ca-marketing')])[22]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CALIFORNIA MARCKETING')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d7c3e2a-85b6-4edd-ae90-8ef91b87c518",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1UDJF",
+      "targets": [
+        ["css=.\\_1UDJF", "css:finder"],
+        ["xpath=//div[@id='comp-k00e6z1w']/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df07d500-a20d-498a-9857-f18ebb76ab96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3VCEv",
+      "targets": [
+        ["css=.\\_3VCEv", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='SM_ROOT_COMP15']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fd8c6ac-adba-46e6-8e37-5e71f39000ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus-within > .\\_1Qjd7",
+      "targets": [
+        ["css=.focus-within > .\\_1Qjd7", "css:finder"],
+        ["xpath=//div[@id='switchToEmailLink_SM_ROOT_COMP16']/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in with Email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "319c8cdf-ad77-4ed2-b03b-0e39b63b63ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_input_emailInput_SM_ROOT_COMP16",
+      "targets": [
+        ["id=input_input_emailInput_SM_ROOT_COMP16", "id"],
+        ["css=#input_input_emailInput_SM_ROOT_COMP16", "css:finder"],
+        ["xpath=//input[@id='input_input_emailInput_SM_ROOT_COMP16']", "xpath:attributes"],
+        ["xpath=//div[@id='input_emailInput_SM_ROOT_COMP16']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "tatyanamchedlidze@gmail.com"
+    }, {
+      "id": "15f0e93f-e2cc-4440-b6d8-c59720171847",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_input_passwordInput_SM_ROOT_COMP16",
+      "targets": [
+        ["id=input_input_passwordInput_SM_ROOT_COMP16", "id"],
+        ["css=#input_input_passwordInput_SM_ROOT_COMP16", "css:finder"],
+        ["xpath=//input[@id='input_input_passwordInput_SM_ROOT_COMP16']", "xpath:attributes"],
+        ["xpath=//div[@id='input_passwordInput_SM_ROOT_COMP16']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "test1223"
+    }, {
+      "id": "d6eb7a47-235f-4c2c-8142-eb8ff482bc40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hfAwd",
+      "targets": [
+        ["css=.hfAwd", "css:finder"],
+        ["xpath=//div[@id='main_MF']/div[6]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14573e60-6c8d-44d0-80e0-f38d97451498",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hfAwd",
+      "targets": [
+        ["css=.hfAwd", "css:finder"],
+        ["xpath=//div[@id='main_MF']/div[6]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ab637e1-cc7a-43c1-9cb8-85b64f3a6053",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hfAwd",
+      "targets": [
+        ["css=.hfAwd", "css:finder"],
+        ["xpath=//div[@id='main_MF']/div[6]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cd62d39-e66c-4941-a26d-41c7b2940dc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus-within > .\\_1Qjd7",
+      "targets": [
+        ["css=.focus-within > .\\_1Qjd7", "css:finder"],
+        ["xpath=//div[@id='okButton_SM_ROOT_COMP16']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45f901a-9052-4995-a110-fbe8cc70ae7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ksocy9ii0label",
+      "targets": [
+        ["id=comp-ksocy9ii0label", "id"],
+        ["css=#comp-ksocy9ii0label", "css:finder"],
+        ["xpath=//p[@id='comp-ksocy9ii0label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ksocy9ii0']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5f8d2ea-b81b-4b7b-8c49-0ff01a3e26a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1e37a6ee-9c0b-4d56-8751-da37743223a2",
+    "name": "CA- Marketing 02",
+    "commands": [{
+      "id": "09a25170-ef16-4dff-ad6b-7ccf9cbaefd9",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af008988-510c-416e-9dea-9b33a58258c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c161915-e196-4314-ab24-a9dfc3b92204",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#img_comp-ksocy8ov3 > img",
+      "targets": [
+        ["css=#img_comp-ksocy8ov3 > img", "css:finder"],
+        ["xpath=//img[@alt='iot_sq.png']", "xpath:img"],
+        ["xpath=//wix-image[@id='img_comp-ksocy8ov3']/img", "xpath:idRelative"],
+        ["xpath=//div/a/wix-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f4c27b1-5b90-4361-b0af-2a47ff2490ab",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=CALIFORNIA MARCKETING",
+      "targets": [
+        ["linkText=CALIFORNIA MARCKETING", "linkText"],
+        ["css=.color_15 > .focus-within", "css:finder"],
+        ["xpath=//a[contains(text(),'CALIFORNIA MARCKETING')]", "xpath:link"],
+        ["xpath=//div[@id='comp-ksocy8ow']/p/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://qasvus.wixsite.com/ca-marketing')])[22]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CALIFORNIA MARCKETING')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8db28eff-ea36-47dc-8ee1-3a7cba549525",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.slick-slide:nth-child(6) .\\_1Pw1g",
+      "targets": [
+        ["css=.slick-slide:nth-child(6) .\\_1Pw1g", "css:finder"],
+        ["xpath=//img[@alt=\"I'm a producd 2\"]", "xpath:img"],
+        ["xpath=//div[@id='comp-k00d6wwn']/div/div/div/div/div[2]/div/div/div[6]/div/div/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc2b8a9-39c0-481b-a7ab-acd7f518ad64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(6) .\\_1Pw1g",
+      "targets": [
+        ["css=.slick-slide:nth-child(6) .\\_1Pw1g", "css:finder"],
+        ["xpath=//img[@alt=\"I'm a producd 2\"]", "xpath:img"],
+        ["xpath=//div[@id='comp-k00d6wwn']/div/div/div/div/div[2]/div/div/div[6]/div/div/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fef19d7-c6c8-45a6-a773-d6ebb30ad7ca",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98dd25a4-b80f-4ecc-93c4-e6929f7981e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ksocy9ii0label",
+      "targets": [
+        ["id=comp-ksocy9ii0label", "id"],
+        ["css=#comp-ksocy9ii0label", "css:finder"],
+        ["xpath=//p[@id='comp-ksocy9ii0label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ksocy9ii0']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fda6a68-06cf-4f27-995b-3e9a8cf7c656",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0040c522-0446-4444-9658-562f77b9ae4e",
+    "name": "CA- Marketing 03",
+    "commands": [{
+      "id": "af685293-1606-4108-b7ff-a484433d09a0",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bb966d3-4fb6-43d2-958f-2aec2ee475fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f1c00ce-cb23-4602-a9c8-675a6319dad7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#img_comp-ksocy8ov3 > img",
+      "targets": [
+        ["css=#img_comp-ksocy8ov3 > img", "css:finder"],
+        ["xpath=//img[@alt='iot_sq.png']", "xpath:img"],
+        ["xpath=//wix-image[@id='img_comp-ksocy8ov3']/img", "xpath:idRelative"],
+        ["xpath=//div/a/wix-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a9148f2-ac15-402a-869d-3138f06c0b23",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=CALIFORNIA MARCKETING",
+      "targets": [
+        ["linkText=CALIFORNIA MARCKETING", "linkText"],
+        ["css=.color_15 > .focus-within", "css:finder"],
+        ["xpath=//a[contains(text(),'CALIFORNIA MARCKETING')]", "xpath:link"],
+        ["xpath=//div[@id='comp-ksocy8ow']/p/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://qasvus.wixsite.com/ca-marketing')])[22]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CALIFORNIA MARCKETING')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da9a8e5f-1258-47a3-8bb5-57476e422550",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a992fa66-4356-4e33-8713-83a0de1c85ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_comp-ksocylga1",
+      "targets": [
+        ["id=input_comp-ksocylga1", "id"],
+        ["css=#input_comp-ksocylga1", "css:finder"],
+        ["xpath=//input[@id='input_comp-ksocylga1']", "xpath:attributes"],
+        ["xpath=//div[@id='comp-ksocylga1']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5786899a-3cd3-43bd-8ff3-1d7e9078af34",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_comp-ksocylga1",
+      "targets": [
+        ["id=input_comp-ksocylga1", "id"],
+        ["css=#input_comp-ksocylga1", "css:finder"],
+        ["xpath=//input[@id='input_comp-ksocylga1']", "xpath:attributes"],
+        ["xpath=//div[@id='comp-ksocylga1']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "tatyanamchedlidze@gmail.com"
+    }, {
+      "id": "6197b9b6-306b-43de-a284-5cf8b037689b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='comp-ksocylgq']/button/span",
+      "targets": [
+        ["css=.focus-within > .\\_1Qjd7", "css:finder"],
+        ["xpath=//div[@id='comp-ksocylgq']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9226bb77-6b1d-4e77-880b-755f62f99a09",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "43c68ec0-9be3-4bf2-9ba4-afa911335ee0",
+    "name": "CA- Marketing 04",
+    "commands": [{
+      "id": "c8464f84-4199-4fc0-b3fb-a7bcc567359a",
+      "comment": "",
+      "command": "open",
+      "target": "https://qasvus.wixsite.com/ca-marketing",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e529de6-d5ca-4b31-9654-524a61e1bece",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afbe0adc-9017-4600-aaf5-e3d4a89a9159",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=CALIFORNIA MARCKETING",
+      "targets": [
+        ["linkText=CALIFORNIA MARCKETING", "linkText"],
+        ["css=.color_15 > .focus-within", "css:finder"],
+        ["xpath=//a[contains(text(),'CALIFORNIA MARCKETING')]", "xpath:link"],
+        ["xpath=//div[@id='comp-ksocy8ow']/p/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://qasvus.wixsite.com/ca-marketing')])[22]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CALIFORNIA MARCKETING')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "349cd46b-0169-4b15-b17b-f061196a03c0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#img_comp-ksocy8ov3 > img",
+      "targets": [
+        ["css=#img_comp-ksocy8ov3 > img", "css:finder"],
+        ["xpath=//img[@alt='iot_sq.png']", "xpath:img"],
+        ["xpath=//wix-image[@id='img_comp-ksocy8ov3']/img", "xpath:idRelative"],
+        ["xpath=//div/a/wix-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f134fe11-7e3f-4ea8-bac0-92111495d4c8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#bgLayers_comp-ksocy8n9 > .\\_3KzuS",
+      "targets": [
+        ["css=#bgLayers_comp-ksocy8n9 > .\\_3KzuS", "css:finder"],
+        ["xpath=//div[@id='bgLayers_comp-ksocy8n9']/div", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69a88a1b-f6f9-45b0-8909-2950de45b4d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ksocy9ii2label",
+      "targets": [
+        ["id=comp-ksocy9ii2label", "id"],
+        ["css=#comp-ksocy9ii2label", "css:finder"],
+        ["xpath=//p[@id='comp-ksocy9ii2label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ksocy9ii2']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18fb0b7f-d1fd-4d0a-8678-f9f56ec5ce25",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(12) .KVu8O:nth-child(2) > .\\_1Pw1g",
+      "targets": [
+        ["css=li:nth-child(12) .KVu8O:nth-child(2) > .\\_1Pw1g", "css:finder"],
+        ["xpath=(//img[@alt=\"I'm a product\"])[14]", "xpath:img"],
+        ["xpath=//div[@id='TPASection_k00d5apo']/div/div/div/div/div/section/div/ul/li[12]/div/a/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//li[12]/div/a/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4e487e5-34ec-4848-8b8b-4fc3a2abf0fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(2) .\\_18Bt4 img",
+      "targets": [
+        ["css=.slick-slide:nth-child(2) .\\_18Bt4 img", "css:finder"],
+        ["xpath=(//img[@alt=\"Thumbnail: I'm a product\"])[2]", "xpath:img"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/header/div/div/div/div[2]/div/div/div/div/div[2]/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d514bccc-e3d3-46ba-823c-fcf0599466df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_11lkb",
+      "targets": [
+        ["css=.\\_11lkb", "css:finder"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div[2]/section[2]/div[4]/div/div/div/div/div/div/div/div/label/div/div/span", "xpath:idRelative"],
+        ["xpath=//label/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e22b19b-c4f0-4f0f-82ca-23114b023ccc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_11lkb",
+      "targets": [
+        ["css=.\\_11lkb", "css:finder"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div[2]/section[2]/div[4]/div/div/div/div/div/div/div/div/label/div/div/span", "xpath:idRelative"],
+        ["xpath=//label/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02a5226d-e9bc-4866-bd51-dfdce0752686",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonnext1002411228__content",
+      "targets": [
+        ["css=.buttonnext1002411228__content", "css:finder"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div[2]/section[2]/div[4]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "324432dd-9e63-4cd5-93f3-97f332b3badc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc76eba1-7c1c-4490-afe8-02cc866ecf93",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "df70546e-85b8-45cc-803e-a60376ea9c2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EU1kn a:nth-child(1)",
+      "targets": [
+        ["css=.EU1kn a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='TPAMultiSection_k00d5av4']/div/div/article/div/nav/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://qasvus.wixsite.com/ca-marketing')])[24]", "xpath:href"],
+        ["xpath=//article/div/nav/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02ce5e59-c049-4842-8311-d19dba17ab83",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ff959e8-5aa9-4b40-880f-f999cd690455",
+    "name": "CA - Marketing (Tat Mchedlidze)",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://qasvus.wixsite.com/", "https://qasvus.wixsite.com/ca-marketing"],
+  "plugins": []
+}
